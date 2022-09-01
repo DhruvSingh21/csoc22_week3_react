@@ -70,15 +70,15 @@ In particular you have to
 
 - **Auth middleware** - You may notice that initially you are landed on the main page even when you are not logged in. That is wrong. In [auth_required.js](./middlewares/auth_required.js) and [no_auth_required.js](./middlewares/no_auth_required.js) you have to add the logic for redirection based on he/she/them is authenticated or not.
 
-- **Login Function** - Currently only register function works. You have to complete the [LoginForm](./components/LoginForm.js) function too present in Login.
+<!-- - **Login Function** - Currently only register function works. You have to complete the [LoginForm](./components/LoginForm.js) function too present in Login. -->
 
-- **Get Tasks function** - There is a function `getTasks` in [index.js](./pages/index.js). You would notice that even after logging in, you see a task *Sample Task 1*. This task was not created by you. This is a dummy task. You have to complete the `getTasks` function such that the tasks listed are the ones created by the user.
+<!-- - **Get Tasks function** - There is a function `getTasks` in [index.js](./pages/index.js). You would notice that even after logging in, you see a task *Sample Task 1*. This task was not created by you. This is a dummy task. You have to complete the `getTasks` function such that the tasks listed are the ones created by the user. -->
 
-- **Add Task** - This functionality is present in [AddTask.js](./components/AddTask.js) which you have to complete by making API call and finally adding element to DOM.
+<!-- - **Add Task** - This functionality is present in [AddTask.js](./components/AddTask.js) which you have to complete by making API call and finally adding element to DOM. -->
 
-- **Delete Task function** - This functions is present in the [TodoListItem.js](./components/TodoListItem.js) file. You have to complete it.
+<!-- - **Delete Task function** - This functions is present in the [TodoListItem.js](./components/TodoListItem.js) file. You have to complete it.
 
-- **Update Task** - This functions is present in the [TodoListItem.js](./components/TodoListItem.js) file. To complete this you have to add in functionality `editTask` function which will render the dom for editing the list item. Finally complete the `updateTask` function.
+- **Update Task** - This functions is present in the [TodoListItem.js](./components/TodoListItem.js) file. To complete this you have to add in functionality `editTask` function which will render the dom for editing the list item. Finally complete the `updateTask` function. -->
 
 ## Points
 Here is the breakdown of the points related to each task.
