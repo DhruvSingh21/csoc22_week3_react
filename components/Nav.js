@@ -3,10 +3,6 @@
 import Link from "next/link";
 import { useAuth } from "../context/auth";
 import { useRouter } from "next/router";
-/**
- *
- * @todo Condtionally render login/register and Profile name in NavBar
- */
 
 export default function Nav() {
   const { logout, profileName, avatarImage } = useAuth();
