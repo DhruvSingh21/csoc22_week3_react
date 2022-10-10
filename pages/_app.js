@@ -1,6 +1,6 @@
-import '../styles/globals.css'
-import { AuthProvider } from '../context/auth'
-import Nav from '../components/Nav'
+import "../styles/globals.css";
+import { AuthProvider } from "../context/auth";
+import Nav from "../components/Nav";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
       <Nav />
       <Component {...pageProps} />
     </AuthProvider>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
